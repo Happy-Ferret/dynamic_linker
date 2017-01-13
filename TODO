@@ -1,0 +1,20 @@
+[X] my_ldd
+
+== my_ld.so ==
+
+[X] Get auxv
+[X] List dependencies
+[X] Map recusrive dependencies
+[X] Load DT_LOADs
+[X] Read rels
+[X] Perform rels
+[X] Jump to entry point
+[ ] Create libc_mine.so containing _start
+
+== liddl_my.so ==
+
+[X] Support dl_open, dl_sym, etc...
+
+== Misc ==
+
+[ ] Amaze you

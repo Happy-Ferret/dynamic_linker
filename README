@@ -1,0 +1,31 @@
+Hello !
+
+Compilation
+===========
+./autogen.sh && make
+
+(use __DEBUG define to print debug)
+
+
+USAGE
+=====
+
+my_ldd       -> run this passing an executable as parameter to
+                see some informations about deps
+
+my_ld.so     -> Use this dynamic linker
+
+libdl_my.so  -> You can use this lib to load other libs at runtime
+                (Check libdl_my.h in include/ directory)
+
+How to test
+===========
+
+Go in  ./tests/custom_libs
+-> make
+
+This will generate some custom libs
+
+
+Go in ./tests
+-> make check
